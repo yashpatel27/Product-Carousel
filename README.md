@@ -1,4 +1,3 @@
-# vuetest
 
 ## Project setup
 ```
@@ -28,14 +27,14 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-I have implemented test case by using test cafe.
+Implemented test case by using test cafe.
 
-## First you need to  run this below command for test case:
+## Install test cafe package from npm:
 
 npm install testcafe --save-dev
 
-## after that add  below command in scripts section in package.json file .
+## Run the following command to run tests.
 
-"test": "testcafe chrome tests/*.test.js --app \"npm run serve\" -S -s screenshots"
-
-after that run command "npm run test" .
+```
+npm run test
+```
